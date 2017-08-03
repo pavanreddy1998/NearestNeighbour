@@ -39,7 +39,7 @@ function setup() {
     div.style('padding','8px 16px');
 	div.style('display','block');
 	div.style('backgroundColor','#FFFFFF');
-    div.parent('#interface');
+    div.parent("#interface"+i);
 	
 	 
     // Create a dropdown menu for each movie
@@ -59,7 +59,7 @@ function setup() {
 //div.parent('#teste');
   // This is a submit button
   var submit = createButton('submit');
-  submit.parent('#interface');
+  submit.parent("#interface"+1);
   submit.style('margin','4px 40px');
   submit.style('padding','8px 16px');
   submit.style('display','block');
