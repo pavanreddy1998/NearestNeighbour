@@ -18,11 +18,18 @@ function preload() {
 function setup() {
   createCanvas(720, 400);
  
-  
+  bimgs=data.bimg;
   img = createImg("http://th07.deviantart.net/fs70/PRE/i/2011/260/3/5/dash_hooray_by_rainbowcrab-d49xk0d.png");
   img.class("featurette-image img-responsive center-block");
   img.parent('#teste');
   
+  img1=createImg("b2.jpg");
+   img1.class("featurette-image img-responsive center-block");
+  img1.parent("#teste"+2);
+  
+  img5=createImg("b2.jpg");
+   img5.class("featurette-image img-responsive center-block");
+  img5.parent("#teste"+5);
 
   // Get the bits out of the data we want
   ratings = data.ratings;
